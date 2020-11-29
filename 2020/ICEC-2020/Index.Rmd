@@ -1,6 +1,6 @@
 ---
 title: "Insigths of recycling intention for a circular economy of plastics for distributed recycling via additive manufacturing"
-subtitle: "CIC 2020"
+subtitle: "![](https://image.jimcdn.com/app/cms/image/transf/none/path/sdc95b3e7ad6facfa/image/i279a1cc76e8a7ff2/version/1573218988/image.jpg)-- ICEC 2020"
 author: "Anamaria Barrera, Margaux Savin, **Fabio Cruz**, Hakim Boudaoud,  Sina Leipold"
 institute: "Université de Lorraine --- ERPI <br/> Univ Freiburg"
 date: "2020/11/30"
