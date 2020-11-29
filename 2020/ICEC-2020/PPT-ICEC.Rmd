@@ -1,0 +1,251 @@
+---
+title: "Insigths of recycling intention for a circular economy of plastics for distributed recycling via additive manufacturing"
+subtitle: "CIC 2020"
+author: "Anamaria Barrera, Margaux Savin, **Fabio Cruz**, Hakim Boudaoud,  Sina Leipold"
+institute: "Université de Lorraine --- ERPI <br/> Univ Freiburg"
+date: "2020/11/30"
+output:
+  xaringan::moon_reader:
+    css: [default, "Assets/css/Fabio.css"]
+    #css: [default]
+    seal: true
+    lib_dir: Assets/libs
+    nature:
+      ratio: "16:9"
+      #titleSlideClass: [top, left, inverse]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #countdown: 60000
+      beforeInit: "Assets/macros.js"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, include = FALSE)
+require(tidyverse)
+require(kableExtra)
+```
+
+
+
+.pull-left[
+![](Figures/intro/nancy.png)
+]
+
+.pull-right[
+![:scale 50%](Figures/intro/Fabio.png)
+![](https://erpi.univ-lorraine.fr/assets/images/logo-ERPI.svg)
+]
+
+
+???
+- Thank you for being connected and thank you for invitating me in these enginnering conection organized by the University.
+- My name is Fabio Cruz. I’m researcher at the University of Lorraine. 
+
+---
+
+class: inverse, center, middle
+
+# The problem
+
+---
+
+# The problem: Plastic waste
+
+.pull-left[ 
+- US recycled less than 9% of its plastic waste.
+- EU, recycled about 30%. However, this number is what is collected, not from what is in circulation*. 
+- China’s ban on plastic trash
+- Plastic trash could top 13 billion tons by 2050
+- Economics of plastic recycling historically have been challenging
+- Little financial incentive to encourage consumers to recycle their own plastic waste
+
+## We barely recycle plastic!!.. 
+]
+
+
+.pull-right[ 
+![Plastic waste](Figures/Plastic-waste.jpg)
+<span class="small">Photo by <a href="https://unsplash.com/@mertguller?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mert Guller</a> on <a href="https://unsplash.com/s/photos/plastic-waste?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+]
+
+
+
+
+.footnote[
+*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
+]
+
+
+
+
+---
+
+# Agenda
+
+1. Rational of the research
+2. Distributed Recycling via Additive Manufacturing (DRAM)
+3. Research questions
+4. Framework
+5. Case study: Green Fablab
+6. Limits & Suggestions
+
+---
+
+# Rationale
+
+.pull-left[
+
+Additive manufacturing is a manufacturing vector in the short future
+![](http://lf2l.fr/assets/images/3-projects/gf/3DP.jpg)
+]
+.pull-right[
+
+Innovations Spaces
+![](http://lf2l.fr/assets/images/3-projects/gf/LF2L.jpg)
+]
+
+---
+
+# Rationale: Distributed Recycling
+
+.pull-left[ 
+Geographical distributed spaces where the polymer recycling process of the surrounding areas will be carried out.
+
+- **Hypothesis:** Plastic recycling by 3D Printing and low cost injection technologies in a local circuit for innovation labs.
+
+Benefits:
+- Avoid the use of the environment as a sink for residuals
+- Minimize the use of virgin materials
+
+<img src="http://lf2l.fr/assets/images/3-projects/gf/Gallery/GF-LF2L-0009.jpg" height="150px">
+<img src="http://lf2l.fr/assets/images/3-projects/gf/Gallery/GF-0010.jpg" height="150px">
+<img src="http://lf2l.fr/assets/images/3-projects/gf/Gallery/GF-0033.jpg" height="150px">
+<img src="http://lf2l.fr/assets/images/3-projects/gf/Gallery/GF-0060.jpg" height="150px">
+
+]
+.pull-right[ 
+
+![:scale 80%](http://lf2l.fr/assets/images/3-projects/gf/Logo-GF.png)
+
+.small[See: http://lf2l.fr/projects/green-fablab/]
+
+![:scale 90%](https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/figures/Gigabot/Gigaboot-00.jpg)
+]
+
+---
+
+# Research Question
+
+## Hypothesis
+
+
+---
+
+# Theoretical framework
+
+
+.left-column[
+
+- Theory of Planned Behaviour (TPB)
+
+
+]
+
+.right-column[
+
+```{r, include=TRUE, echo=FALSE, fig.align='center'}
+knitr::include_graphics("Figures/TPB/TPB.jpeg")
+```
+]
+
+
+
+---
+
+#  Questionnaire
+
+```{r, include=TRUE}
+Variables <- 
+tribble(
+  ~Construct, ~Variable, ~Indicator,  
+  "Socio-economic condition (SEC)", "SEC.1" , "Age",
+  "Socio-economic condition (SEC)", "SEC.2" , "Gender",
+  "Socio-economic condition (SEC)", "SEC.3" , "Socio-professional category (according to the classification made by the INSEE - French)",
+
+  
+  "Attitude towards recycling (ATT)", "AAT.1", "Which of the following elements would encourage you to recycle?",
+  "Attitude towards recycling (ATT)", "AAT.2", "In your opinion, have the following elements improved your perception of recycling?",
+  "Attitude towards recycling (ATT)", "AAT.3", "Please indicate to what extent you agree with the following sentences",
+  
+  "Subjective Norm towards recycling (SN)", "SN.1", "Do you think the following elements could improve the perception of recycling in your community?",
+
+  "Perceived Behavioral Control towards recycling  (PCB)", "PCB.1", "Do you think it was easier to make the decision to recycle because of the following factors?",
+
+  "Perceived Behavioral Control towards recycling  (PCB)", "PCB.2", "How far would you be willing to go to use a recycling facility?",
+  
+ 
+  "Recycling behavior", "BE.1", "Do you ever recycle some of your household waste?",
+  "Recycling behavior", "BE.2", "Why do you recycle?",
+  
+)
+
+  
+Variables %>%
+  kable() %>%
+  kable_styling() %>% 
+  collapse_rows(columns = 1, valign = "middle")
+```
+
+
+---
+
+# Questionnaire: Foire de Nancy
+
+
+
+---
+
+# Results
+## Description of the Population
+
+```{r, include=TRUE,  fig.show="hold", out.width="50%"}
+knitr::include_graphics("Figures/Results/Population.jpg")
+
+knitr::include_graphics("Figures/Results/Profesional-categories.jpg")
+```
+
+
+---
+
+# Results
+## Factors influencing Attitude
+
+
+
+
+
+---
+
+# Limits
+
+
+
+---
+
+# Perspectives
+
+
+---
+
+class: middle, center
+
+# thanks
+
+
+
+
+
