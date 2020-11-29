@@ -206,6 +206,10 @@ Variables %>%
 # Questionnaire: Foire de Nancy
 
 
+```{r, include=TRUE,  fig.show="hold", out.width="50%"}
+knitr::include_graphics("Figures/foire/foire-00.jpeg")
+```
+
 
 ---
 
