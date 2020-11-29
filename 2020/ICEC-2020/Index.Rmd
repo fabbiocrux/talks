@@ -6,7 +6,7 @@ institute: "Université de Lorraine --- ERPI <br/> Univ Freiburg"
 date: "2020/11/30"
 output:
   xaringan::moon_reader:
-    css: [default, "Assets/css/Fabio.css"]
+    css: [default, "Assets/css/Fabio.css", "Assets/css/Fabio-fonts.css"]
     #css: [default]
     seal: true
     lib_dir: Assets/libs
@@ -46,7 +46,7 @@ require(kableExtra)
 
 ---
 
-class: inverse, center, middle
+class:  center, middle
 
 # The problem
 
@@ -134,13 +134,37 @@ Benefits:
 .small[See: http://lf2l.fr/projects/green-fablab/]
 
 ![:scale 90%](https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/figures/Gigabot/Gigaboot-00.jpg)
+.tiny[
+Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
 ]
+]
+
 
 ---
 
 # Research Question
 
-## Hypothesis
+.pull-left[
+
+In short/long term, 
+- Distributed recycling can influence the *intention of recycling*?
+
+- How we can create a local closed loop recycling people use recycled products based on the DRAM ?
+
+![](https://raw.githubusercontent.com/LF2L/everest-bio/master/slides/figures/Green-fablab-0.png)
+
+]
+
+.pull-right[
+
+.center[![:scale 100%](https://raw.githubusercontent.com/LF2L/everest-bio/master/slides/figures/Green-fablab-circuit.png)]
+
+]
+
+
+- How can we create 
+
+
 
 
 ---
@@ -196,7 +220,7 @@ tribble(
   
 Variables %>%
   kable() %>%
-  kable_styling() %>% 
+  kable_styling(font_size = 17) %>% 
   collapse_rows(columns = 1, valign = "middle")
 ```
 
@@ -206,10 +230,11 @@ Variables %>%
 # Questionnaire: Foire de Nancy
 
 
-```{r, include=TRUE,  fig.show="hold", out.width="50%"}
-knitr::include_graphics("Figures/foire/foire-00.jpeg")
+```{r, include=TRUE,  fig.show="hold", out.width="100%"}
+knitr::include_graphics("Figures/foire/foire-01.jpeg")
 ```
 
+- 
 
 ---
 

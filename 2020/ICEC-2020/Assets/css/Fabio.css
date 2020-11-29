@@ -13,6 +13,7 @@ To specify the margin of the first title h1
 .remark-slide-content > h1:first-of-type {
   margin-top: 5px;
   margin-bottom: 10px;
+  color: #0148A4;
 }
 .remark-slide-content > h2:first-of-type {
   color: #e64626;
@@ -63,6 +64,7 @@ To specify the margin of the first title h1
   background-color: #0148A4;
   text-shadow: 0 0 20px #333;
 }
+
 .inverse .remark-slide-number {
   display: none;
 }
@@ -385,7 +387,7 @@ hr, .title-slide h2::after, .mline h1::after {
 
 /* H1 fonts  */
 .title-slide h1 {
-  color: #1A292C;
+  color: #0148A4; /* #1A292C; */
   font-weight: normal;
   font-size: 45px;
   padding: 20px;
