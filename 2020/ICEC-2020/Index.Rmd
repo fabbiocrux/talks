@@ -79,7 +79,26 @@ class:  center, middle
 *Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
 ]
 
+---
 
+# The problem: Plastic waste
+
+The development of sustainable industrial supply chains
+
+.left-column[
+.small[
+
+- Only technico-economic criteria alone do not (no longer) enables a informed decision making 
+
+- Need to assess value chains in a different way, including actual impacts on ecosystems
+
+- A more holistic vision is needed to assess the feasibility of these new sectors.
+]
+ ]
+
+.right-column[ 
+.polaroid[ ![](https://raw.githubusercontent.com/LF2L/everest-bio/master/slides/figures/Recycling.png) ]
+]
 
 
 ---
