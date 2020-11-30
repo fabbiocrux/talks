@@ -186,12 +186,19 @@ In short/long term,
 
 .right-column[
 
-```{r, include=TRUE, echo=FALSE, fig.align='center'}
+```{r, include=TRUE, echo=FALSE, fig.align='center', out.width='80%'}
 knitr::include_graphics("Figures/TPB/TPB.jpeg")
 ```
 ]
 
+.small[
 
+- Attitude: The extent to which plastic recycling is valued by people, whether positive or negative
+- Subjective Norms: The extent to which people are influenced by perceived norms of plastic recycling in their  surroundings
+- Perceived Behavioral Control (PCB): the perceived power (and knowledge) of people to implement plastic recycling
+- Behavioral intention: A perceived likelihood or subjective probability they will implement plastic recycling.
+
+]
 
 ---
 
@@ -288,6 +295,9 @@ knitr::include_graphics("Figures/Results/SN-00.jpeg")
 ```{r, include=TRUE}
 knitr::include_graphics("Figures/Results/PCB-00.jpeg")
 ```
+
+
+- 
 
 ---
 
