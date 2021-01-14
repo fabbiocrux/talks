@@ -308,6 +308,21 @@ Technical system
 ---
 
 ---
+
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+FGF
+
+
+.footnote[
+Alexandre, A., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
+]
+
+
+
+---
 class: left
 background-image: url(`r paste0(URL, 'DRAM/DRAM-03.png')`)
 background-position: 0px 75px
@@ -351,7 +366,16 @@ Technical system: <br>
 2) Recycling feasibility (Lab conditions) <br>
 3) Logistical mathematical model
 
---
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '50%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-05.jpeg'))
+```
+
+
+---
+
+class: middle
 
 ## Only technial systems is not enough !!
 
@@ -369,35 +393,31 @@ knitr::include_graphics(paste0(URL, 'DRAM/DRAM-00.svg'))
 ```
 
 
-
 .footnote[
 Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
 ]
 
 ---
 
-## Distributed recycling via additive manufacturing (DRAM)
-Technical system
-
-.center[![:scale 80%](Figures/DRAM-04.jpeg)]
-
-.footnote[
-Alexandre, A., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
-]
-
----
 
 ## Distributed recycling via additive manufacturing (DRAM)
 Technical system --> Towards an 'Industrial Symbiosis'
 
-.center[![:scale 100%](Figures/DRAM-05.png)]
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-06.png'))
+```
 
 ---
 
 ## Distributed recycling via additive manufacturing (DRAM)
-Technical system --> Towars and 'Industrial Symbiosis'
+Technical system --> Towards and 'Industrial Symbiosis'
 
-.center[![:scale 80%](Figures/DRAM/DRAM-03.png)]
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-07.png'))
+```
+
 
 
 ---
@@ -407,23 +427,27 @@ Technical system --> Towars and 'Industrial Symbiosis'
 Global system
 
 .pull-left[
-![](Figures/DRAM-07.png)
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-08.png'))
+```
+
 ]
 
 .pull-right[
 - Establish and evaluate scenarios in a systemic and dynamic way
-
 - Evaluate the influences of the main operating variables on the system
-
 - Taking into account the priorities of the multiple stakeholders
-
 - Facilitate your decision making public-private actors
 ]
+
+
 .footnote[
 Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531 
 ]
 
 ---
+
 
 
 ---
@@ -436,8 +460,6 @@ knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycl
 ```
 
 
-
-
 ---
 
 # Recycling is coming
@@ -446,23 +468,32 @@ knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycl
 
 .center[
 <iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ]
 
 
 ---
+
 ## Precious Plastic Inspiration
 
-![:scale 90%](Figures/Plastiques/Precious-plastic-01.jpg)
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Plastics/Precious/Precious-plastic-01.jpg'))
+```
 
 ---
 
 ## Precious Plastic Inspiration
 
 .pull-left[
-![](Figures/Plastiques/Precious-plastic.jpg)]
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Plastics/Precious/Precious-plastic.jpg'))
+```
+]
 .pull-right[
-![](Figures/Plastiques/Precious-plastic-00.jpg)]
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Plastics/Precious/Precious-plastic-00.jpg'))
+```
+]
 
 ---
 
@@ -471,7 +502,10 @@ knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycl
 
 Many exemples throughout the world
 
-.pull-left[![:scale 100%](Figures/quactus.png)
+.pull-left[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Quactus/Quactus-00.png'))
+```
 
 Start-up Qactus form chile
 
@@ -480,13 +514,19 @@ https://qactus.cl/
 ] 
 
 .pull-right[
-![](Figures/initiatives.png)
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/17-Initiatives/Initiatives-00.png'))
+```
 ]
+
 ---
 
 ## Other Inspirations
 
-![](Figures/DRAM/DRAM-02.png)
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-exemples-01.png'))
+```
+
 
 ---
 
@@ -501,16 +541,31 @@ class: middle center
 # Hands on !
 ## Gigabot
 
-.pull-left[![:scale 60%](Figures/Gigaboot/Gigaboot.jpg)]
-.pull-right[![:scale 100%](Figures/Gigaboot/Gigaboot-00.jpg)]
+
+.pull-left[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Gigaboot/Gigaboot.jpg'))
+```
+]
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Gigaboot/Gigaboot-00.jpg'))
+```
+]
 
 ---
 
 # Hands on !
 ## Holipresse
 
-.pull-left[![:scale 60%](Figures/Holipresse/Holipresse.jpg)
-![:scale 60%](Figures/Holipresse/Holipresse-00.jpg)]
+.pull-left[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Holipresse/Holipresse.jpg'))
+```
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Holipresse/Holipresse-00.jpg'))
+```
+]
 .pull-right[
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IVonTy63pJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
@@ -530,7 +585,7 @@ class: middle center
 2. Create an account on [https://fabmanager.lf2l.fr/](https://fabmanager.lf2l.fr/)
 3. Create a new project 
 4. Document the procedure 
-5. Put the datafiles to replicate the e
+5. Put the datafiles to replicate the design
 6. Put some photos 
 
 
@@ -539,7 +594,7 @@ class: middle center
 
 
 class: middle, left
-background-image: url(Figures/educator.jpg)
+background-image: url(`r paste0(URL, 'Various/People/educator.jpg')`)
 background-position: right
 background-size: contain
 
@@ -556,11 +611,9 @@ background-size: contain
 ---
 
 class: middle, left
-background-image: url(Figures/Climatelabs.png)
+background-image: url(`r paste0(URL, 'Climatelabs/Climatelabs.png')`)
 background-position: center
 background-size: contain
-
-
 
 ---
 class: middle
@@ -568,26 +621,34 @@ class: middle
 # EU projects 
 
 .pull-left[
-![:scale 70%](Figures/Smagrinet.png) 
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Smagrinet/Smagrinet-00.jpg'))
+```
 https://www.smagrinet.eu/
 
-![](Figures/digiterri.png)
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Digiterri/Digiterri'))
+```
+
 https://digiterri.eu/
 
 ] 
 .pull-right[
 
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/Inedit-00.png'))
+```
 
-![:scale 100%](Figures/inedit.png)
 https://www.inedit-project.eu/
 ]
 
 
 ---
+
 class: middle, center
 
 # Thanks..
 
-### cruzsanc@univ-lorraine.fr
+### cruzsanc1@univ-lorraine.fr
 
 
