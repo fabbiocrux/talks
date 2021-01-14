@@ -1,0 +1,593 @@
+---
+title: "Green Fablab: Towards an Industrial Symbiosis for distributed recycling via additive manufacturing"
+subtitle: "Licence AFTER"
+author: "Fabio Cruz & Fedoua Kasmi"
+institute: "Université de Lorraine --- ERPI"
+date: "2021/01/14"
+output:
+  xaringan::moon_reader:
+    css: [default, "Assets/css/Fabio.css", "Assets/css/Fabio-fonts.css"]
+    #css: [default]
+    seal: true
+    lib_dir: Assets/libs
+    nature:
+      ratio: "16:9"
+      #titleSlideClass: [top, left, inverse]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #countdown: 60000
+      beforeInit: "Assets/macros.js"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+
+```{r, include=FALSE}
+knitr::opts_knit$set(include= FALSE, echo=FALSE)
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+```
+
+# Planning de la journée
+
+<br>
+
+`r emo::ji("calendar")`  Jan 14, 2021 <br>
+`r emo::ji("clock8")`  09:00 - 17:00 <br>
+`r emo::ji("round_pushpin")`  Teams <br>
+<br>
+
+| Time          | Activity                |
+|:--------------|:------------------------|
+| 09:00 - 12:00 | Introduction of IS of Green Fablab  |
+| 12:00 - 13:30 | *Break* `r emo::ji("apple")`        |
+| 13:30 - 17:00 |  Seminaire |
+
+---
+
+class: middle
+
+# How the .green[<ins>Tieurs Lieux</ins>] help to societal transitions...?
+
+---
+
+# The Plastics
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Plastics/Plastics-01.png'))
+```
+
+.footnote[
+Source. Plastics Europe 2018
+]
+---
+
+# The problem
+
+---
+
+background-image: url(`r paste0(URL, 'Plastics/Plastic-problem-00.jpg')`) 
+---
+
+background-image: url(`r paste0(URL, 'Plastics/Plastic-problem-01.jpg')`)
+---
+
+background-image: url(`r paste0(URL, 'Plastics/Plastic-problem-02.jpg')`)
+---
+
+background-image: url(`r paste0(URL, 'Plastics/Plastic-problem-03.svg')`)
+background-size: 80% 75%
+
+# Plastics waste since  olden times
+
+.footnote[
+Geyer, R., Jambeck, J.R., Law, K.L., 2017. Production, use, and fate of all plastics ever made. Sci. Adv. 3, e1700782. https://doi.org/10.1126/sciadv.1700782
+]
+
+---
+
+## The consequences
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Plastics/Plastic-problem-05.jpg'))
+```
+
+---
+
+
+## In bref...
+
+.pull-left[ 
+- US recycled less than 9% of its plastic waste.
+- EU, recycled about 30%. However, this number is what is collected, not from what is in circulation*. 
+- China’s ban on plastic trash
+- Plastic trash could top 13 billion tons by 2050
+- Economics of plastic recycling historically have been challenging
+- Little financial incentive to encourage consumers to recycle their own plastic waste
+
+## We barely recycle plastic!!.. 
+]
+
+
+.pull-right[ 
+![Plastic waste](https://images.unsplash.com/photo-1537084642907-629340c7e59c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)
+]
+
+
+.footnote[
+*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
+]
+
+
+---
+
+# What is polymer recycling?
+
+---
+
+# Polymer Recycling in the literature
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Recycling/Polymer-recycling-01.png'))
+```
+
+
+---
+
+# Polymer Recycling in the literature
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Recycling/Polymer-recycling-00.png'))
+```
+
+.tiny[
+**Reuse**: New use of the original object <br>
+**Mechanical Recycling:** .content-box-green[Recovers clean plastics products  in order to reuse in the manufacturing process] <br>
+**Chemical Recycling:** Recover synthesis monomers or feedstock chemicals by depolymerization.  <br>
+**Feedstock Recycling:** Break down the solid polymeric materials into a spectrum of basic chemical components.  <br>
+**Energy recovery:** Generation of energy (Pyrolisis)
+]
+
+.footnote[
+*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
+]
+
+---
+
+# Mechanical Recycling
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Recycling/Mechanical/Mechanical-recycling-00.png'))
+```
+
+---
+
+# Additive Manufacturing
+
+## Why Additive manufacturing is important, according to you?
+
+--
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AM/Importance/AM-Importance-00.png'))
+```
+
+
+.footnote[Hossain, M., 2020. Additive Manufacturing and the COVID-19 challenges : An in-depth study Additive Manufacturing and the COVID-19 challenges : An in-depth study. https://doi.org/10.13140/RG.2.2.35767.55206]
+
+
+---
+
+## Why Additive manufacturing is important, according to you?
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-01.png'))
+```
+
+
+---
+
+## Open source as driver
+
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-02.png'))
+```
+
+
+
+
+---
+
+## Future of Additive Manufacturing
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AM/Future/Future-01.png'))
+```
+
+---
+
+class: clear, center, middle
+
+# How additive manufacturing and Tieurs Lieux could help to **mitigate** .brand-red[plastic waste] problem?
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+
+
+.pull-left[
+-Local closed loop  <br>
+-AM adds value  <br>
+-Small quantities   <br>
+-Reduction of landfilling  <br>
+-Minimize the use of virgin materials  <br>
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-2.jpg'))
+```
+
+]
+.pull-right[
+
+![](http://lf2l.fr/assets/images/3-projects/gf/Logo-GF.png)
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-1.jpg'))
+```
+
+
+http://lf2l.fr/projects/green-fablab
+]
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+---
+
+class: left
+background-image: url(`r paste0(URL, 'DRAM/DRAM-00.png')`)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+--
+background-image: url(`r paste0(URL, 'DRAM/DRAM-01.png')`)
+
+.pull-down[
+.content-box-green[1) Evaluation of the 3D printers quality] `r emo::ji("apple")` <br>
+.content-box-grey[2) Recycling feasibility (Lab conditions)]<br>
+.content-box-grey[3) Logistical mathematical model]
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Research question: <br>
+.content-box-green[Are Open source 3D printer good enough? (Geometrical accuracy sapeaking)]
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Metodologies/Master-recherche/Master-00.png'))
+```
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+---
+class: left
+background-image: url(`r paste0(URL, 'DRAM/DRAM-02.png')`)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+.pull-down[
+.content-box-grey[1) Evaluation of the 3D printers quality] `r emo::ji("apple")` <br>
+.content-box-green[2) Recycling feasibility (Lab conditions)] `r emo::ji("apple")`<br>
+.content-box-grey[3) Logistical mathematical model]
+]
+
+---
+
+---
+class: left
+background-image: url(`r paste0(URL, 'DRAM/DRAM-03.png')`)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+
+.pull-down[
+.content-box-grey[1) Evaluation of the 3D printers quality] `r emo::ji("apple")` <br>
+.content-box-grey[2) Recycling feasibility (Lab conditions)]<br>
+.content-box-green[3) Logistical mathematical model] `r emo::ji("apple")`<br>
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Research Question: <br>
+.content-box-green[ What is the impact of the transportation for DRAM?]
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/Pavlo-05.png'))
+```
+
+.footnote[
+Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531
+]
+
+
+---
+
+In summary!
+
+--
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: <br>
+1) Evaluation of the 3D printers quality <br>
+2) Recycling feasibility (Lab conditions) <br>
+3) Logistical mathematical model
+
+--
+
+## Only technial systems is not enough !!
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --> .content-box-green[Towards a complete technical framework] <br>
+1) Evaluation of the 3D printers quality <br>
+2) Recycling feasibility (Lab conditions) <br>
+3) Logistical mathematical model <br>
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-00.svg'))
+```
+
+
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+.center[![:scale 80%](Figures/DRAM-04.jpeg)]
+
+.footnote[
+Alexandre, A., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --> Towards an 'Industrial Symbiosis'
+
+.center[![:scale 100%](Figures/DRAM-05.png)]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --> Towars and 'Industrial Symbiosis'
+
+.center[![:scale 80%](Figures/DRAM/DRAM-03.png)]
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+Global system
+
+.pull-left[
+![](Figures/DRAM-07.png)
+]
+
+.pull-right[
+- Establish and evaluate scenarios in a systemic and dynamic way
+
+- Evaluate the influences of the main operating variables on the system
+
+- Taking into account the priorities of the multiple stakeholders
+
+- Facilitate your decision making public-private actors
+]
+.footnote[
+Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531 
+]
+
+---
+
+
+---
+
+class: middle
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycling-is-coming.png'))
+```
+
+
+
+
+---
+
+# Recycling is coming
+
+## Precious Plastic Inspiration
+
+.center[
+<iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+
+---
+## Precious Plastic Inspiration
+
+![:scale 90%](Figures/Plastiques/Precious-plastic-01.jpg)
+
+---
+
+## Precious Plastic Inspiration
+
+.pull-left[
+![](Figures/Plastiques/Precious-plastic.jpg)]
+.pull-right[
+![](Figures/Plastiques/Precious-plastic-00.jpg)]
+
+---
+
+
+## Other Inspirations
+
+Many exemples throughout the world
+
+.pull-left[![:scale 100%](Figures/quactus.png)
+
+Start-up Qactus form chile
+
+https://qactus.cl/
+
+] 
+
+.pull-right[
+![](Figures/initiatives.png)
+]
+---
+
+## Other Inspirations
+
+![](Figures/DRAM/DRAM-02.png)
+
+---
+
+class: middle center
+
+# Hands on the machines !
+
+
+
+---
+
+# Hands on !
+## Gigabot
+
+.pull-left[![:scale 60%](Figures/Gigaboot/Gigaboot.jpg)]
+.pull-right[![:scale 100%](Figures/Gigaboot/Gigaboot-00.jpg)]
+
+---
+
+# Hands on !
+## Holipresse
+
+.pull-left[![:scale 60%](Figures/Holipresse/Holipresse.jpg)
+![:scale 60%](Figures/Holipresse/Holipresse-00.jpg)]
+.pull-right[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IVonTy63pJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+
+
+
+
+
+---
+
+# Workshop
+
+1. Objects to fabricate
+  - Holipresse --> 'Visière recycle'
+  - Gigaboot --> 
+2. Create an account on [https://fabmanager.lf2l.fr/](https://fabmanager.lf2l.fr/)
+3. Create a new project 
+4. Document the procedure 
+5. Put the datafiles to replicate the e
+6. Put some photos 
+
+
+
+---
+
+
+class: middle, left
+background-image: url(Figures/educator.jpg)
+background-position: right
+background-size: contain
+
+# To conclude
+
+- An imperative to act now for the planet
+- Assuming our role from the university 
+- A holistic, systemic and interdisciplinary vision <br/> is necessary 
+- Technology must be considered in <br/> its socio-technical context
+- True interdisciplinarity is fundamental <br/>*(let's take the risk)*
+- Community integration is indispensable, <br/>it's about **co-building solutions**. 
+
+
+---
+
+class: middle, left
+background-image: url(Figures/Climatelabs.png)
+background-position: center
+background-size: contain
+
+
+
+---
+class: middle
+
+# EU projects 
+
+.pull-left[
+![:scale 70%](Figures/Smagrinet.png) 
+https://www.smagrinet.eu/
+
+![](Figures/digiterri.png)
+https://digiterri.eu/
+
+] 
+.pull-right[
+
+
+![:scale 100%](Figures/inedit.png)
+https://www.inedit-project.eu/
+]
+
+
+---
+class: middle, center
+
+# Thanks..
+
+### cruzsanc@univ-lorraine.fr
+
+

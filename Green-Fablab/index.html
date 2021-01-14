@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Green Fablab: Towards an Industrial Symbiosis for distributed recycling via additive manufacturing</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Fabio Cruz &amp; Fedoua Kasmi" />
+    <script src="Assets/libs/header-attrs-2.6.4/header-attrs.js"></script>
+    <link href="Assets/libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="Assets/libs/clipboard-2.0.6/clipboard.min.js"></script>
+    <link href="Assets/libs/shareon-1.4.1/shareon.min.css" rel="stylesheet" />
+    <script src="Assets/libs/shareon-1.4.1/shareon.min.js"></script>
+    <link href="Assets/libs/xaringanExtra-shareagain-0.2.4/shareagain.css" rel="stylesheet" />
+    <script src="Assets/libs/xaringanExtra-shareagain-0.2.4/shareagain.js"></script>
+    <link rel="stylesheet" href="Assets/css/Fabio.css" type="text/css" />
+    <link rel="stylesheet" href="Assets/css/Fabio-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Green Fablab: Towards an Industrial Symbiosis for distributed recycling via additive manufacturing
+## Licence AFTER
+### Fabio Cruz &amp; Fedoua Kasmi
+### Université de Lorraine — ERPI
+### 2021/01/14
+
+---
+
+
+
+
+
+
+
+# Planning de la journée
+
+&lt;br&gt;
+
+📆  Jan 14, 2021 &lt;br&gt;
+🕗  09:00 - 17:00 &lt;br&gt;
+📍  Teams &lt;br&gt;
+&lt;br&gt;
+
+| Time          | Activity                |
+|:--------------|:------------------------|
+| 09:00 - 12:00 | Introduction of IS of Green Fablab  |
+| 12:00 - 13:30 | *Break* 🍎        |
+| 13:30 - 17:00 |  Seminaire |
+
+---
+
+class: middle
+
+# How the .green[&lt;ins&gt;Tieurs Lieux&lt;/ins&gt;] help to societal transitions...?
+
+---
+
+# The Plastics
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastics-01.png" alt=" " width="80%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+.footnote[
+Source. Plastics Europe 2018
+]
+---
+
+# The problem
+
+---
+
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastic-problem-00.jpg) 
+---
+
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastic-problem-01.jpg)
+---
+
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastic-problem-02.jpg)
+---
+
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastic-problem-03.svg)
+background-size: 80% 75%
+
+# Plastics waste since  olden times
+
+.footnote[
+Geyer, R., Jambeck, J.R., Law, K.L., 2017. Production, use, and fate of all plastics ever made. Sci. Adv. 3, e1700782. https://doi.org/10.1126/sciadv.1700782
+]
+
+---
+
+## The consequences
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Plastics/Plastic-problem-05.jpg" alt=" " width="80%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+
+## In bref...
+
+.pull-left[ 
+- US recycled less than 9% of its plastic waste.
+- EU, recycled about 30%. However, this number is what is collected, not from what is in circulation*. 
+- China’s ban on plastic trash
+- Plastic trash could top 13 billion tons by 2050
+- Economics of plastic recycling historically have been challenging
+- Little financial incentive to encourage consumers to recycle their own plastic waste
+
+## We barely recycle plastic!!.. 
+]
+
+
+.pull-right[ 
+![Plastic waste](https://images.unsplash.com/photo-1537084642907-629340c7e59c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80)
+]
+
+
+.footnote[
+*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
+]
+
+
+---
+
+# What is polymer recycling?
+
+---
+
+# Polymer Recycling in the literature
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Recycling/Polymer-recycling-01.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# Polymer Recycling in the literature
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Recycling/Polymer-recycling-00.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+.tiny[
+**Reuse**: New use of the original object &lt;br&gt;
+**Mechanical Recycling:** .content-box-green[Recovers clean plastics products  in order to reuse in the manufacturing process] &lt;br&gt;
+**Chemical Recycling:** Recover synthesis monomers or feedstock chemicals by depolymerization.  &lt;br&gt;
+**Feedstock Recycling:** Break down the solid polymeric materials into a spectrum of basic chemical components.  &lt;br&gt;
+**Energy recovery:** Generation of energy (Pyrolisis)
+]
+
+.footnote[
+*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
+]
+
+---
+
+# Mechanical Recycling
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Recycling/Mechanical/Mechanical-recycling-00.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# Additive Manufacturing
+
+## Why Additive manufacturing is important, according to you?
+
+--
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/AM/Importance/AM-Importance-00.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+.footnote[Hossain, M., 2020. Additive Manufacturing and the COVID-19 challenges : An in-depth study Additive Manufacturing and the COVID-19 challenges : An in-depth study. https://doi.org/10.13140/RG.2.2.35767.55206]
+
+
+---
+
+## Why Additive manufacturing is important, according to you?
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/AM/OS/Reprap-01.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+## Open source as driver
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/AM/OS/Reprap-02.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+---
+
+## Future of Additive Manufacturing
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/AM/Future/Future-01.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+class: clear, center, middle
+
+# How additive manufacturing and Tieurs Lieux could help to **mitigate** .brand-red[plastic waste] problem?
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+
+
+.pull-left[
+-Local closed loop  &lt;br&gt;
+-AM adds value  &lt;br&gt;
+-Small quantities   &lt;br&gt;
+-Reduction of landfilling  &lt;br&gt;
+-Minimize the use of virgin materials  &lt;br&gt;
+
+&lt;div class="figure" style="text-align: left"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Green-Fablab/Green-fablab-2.jpg" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+]
+.pull-right[
+
+![](http://lf2l.fr/assets/images/3-projects/gf/Logo-GF.png)
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Green-Fablab/Green-fablab-1.jpg" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+http://lf2l.fr/projects/green-fablab
+]
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+---
+
+class: left
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/DRAM-00.png)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+--
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/DRAM-01.png)
+
+.pull-down[
+.content-box-green[1) Evaluation of the 3D printers quality] 🍎 &lt;br&gt;
+.content-box-grey[2) Recycling feasibility (Lab conditions)]&lt;br&gt;
+.content-box-grey[3) Logistical mathematical model]
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Research question: &lt;br&gt;
+.content-box-green[Are Open source 3D printer good enough? (Geometrical accuracy sapeaking)]
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Metodologies/Master-recherche/Master-00.png" alt=" " width="80%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+---
+class: left
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/DRAM-02.png)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+.pull-down[
+.content-box-grey[1) Evaluation of the 3D printers quality] 🍎 &lt;br&gt;
+.content-box-green[2) Recycling feasibility (Lab conditions)] 🍎&lt;br&gt;
+.content-box-grey[3) Logistical mathematical model]
+]
+
+---
+
+---
+class: left
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/DRAM-03.png)
+background-position: 0px 75px
+background-size: contain
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+
+.pull-down[
+.content-box-grey[1) Evaluation of the 3D printers quality] 🍎 &lt;br&gt;
+.content-box-grey[2) Recycling feasibility (Lab conditions)]&lt;br&gt;
+.content-box-green[3) Logistical mathematical model] 🍎&lt;br&gt;
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Research Question: &lt;br&gt;
+.content-box-green[ What is the impact of the transportation for DRAM?]
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/Pavlo-05.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+.footnote[
+Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531
+]
+
+
+---
+
+In summary!
+
+--
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: &lt;br&gt;
+1) Evaluation of the 3D printers quality &lt;br&gt;
+2) Recycling feasibility (Lab conditions) &lt;br&gt;
+3) Logistical mathematical model
+
+--
+
+## Only technial systems is not enough !!
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --&gt; .content-box-green[Towards a complete technical framework] &lt;br&gt;
+1) Evaluation of the 3D printers quality &lt;br&gt;
+2) Recycling feasibility (Lab conditions) &lt;br&gt;
+3) Logistical mathematical model &lt;br&gt;
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/DRAM/DRAM-00.svg" alt=" " width="80%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system
+
+.center[![:scale 80%](Figures/DRAM-04.jpeg)]
+
+.footnote[
+Alexandre, A., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --&gt; Towards an 'Industrial Symbiosis'
+
+.center[![:scale 100%](Figures/DRAM-05.png)]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --&gt; Towars and 'Industrial Symbiosis'
+
+.center[![:scale 80%](Figures/DRAM/DRAM-03.png)]
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+Global system
+
+.pull-left[
+![](Figures/DRAM-07.png)
+]
+
+.pull-right[
+- Establish and evaluate scenarios in a systemic and dynamic way
+
+- Evaluate the influences of the main operating variables on the system
+
+- Taking into account the priorities of the multiple stakeholders
+
+- Facilitate your decision making public-private actors
+]
+.footnote[
+Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531 
+]
+
+---
+
+
+---
+
+class: middle
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/FIN/2019/Green-of-Thrones/Typografia/Recycling-is-coming.png" alt=" " width="100%" /&gt;
+&lt;p class="caption"&gt; &lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+---
+
+# Recycling is coming
+
+## Precious Plastic Inspiration
+
+.center[
+&lt;iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+]
+
+
+---
+## Precious Plastic Inspiration
+
+![:scale 90%](Figures/Plastiques/Precious-plastic-01.jpg)
+
+---
+
+## Precious Plastic Inspiration
+
+.pull-left[
+![](Figures/Plastiques/Precious-plastic.jpg)]
+.pull-right[
+![](Figures/Plastiques/Precious-plastic-00.jpg)]
+
+---
+
+
+## Other Inspirations
+
+Many exemples throughout the world
+
+.pull-left[![:scale 100%](Figures/quactus.png)
+
+Start-up Qactus form chile
+
+https://qactus.cl/
+
+] 
+
+.pull-right[
+![](Figures/initiatives.png)
+]
+---
+
+## Other Inspirations
+
+![](Figures/DRAM/DRAM-02.png)
+
+---
+
+class: middle center
+
+# Hands on the machines !
+
+
+
+---
+
+# Hands on !
+## Gigabot
+
+.pull-left[![:scale 60%](Figures/Gigaboot/Gigaboot.jpg)]
+.pull-right[![:scale 100%](Figures/Gigaboot/Gigaboot-00.jpg)]
+
+---
+
+# Hands on !
+## Holipresse
+
+.pull-left[![:scale 60%](Figures/Holipresse/Holipresse.jpg)
+![:scale 60%](Figures/Holipresse/Holipresse-00.jpg)]
+.pull-right[
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/IVonTy63pJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+
+
+
+
+
+---
+
+# Workshop
+
+1. Objects to fabricate
+  - Holipresse --&gt; 'Visière recycle'
+  - Gigaboot --&gt; 
+2. Create an account on [https://fabmanager.lf2l.fr/](https://fabmanager.lf2l.fr/)
+3. Create a new project 
+4. Document the procedure 
+5. Put the datafiles to replicate the e
+6. Put some photos 
+
+
+
+---
+
+
+class: middle, left
+background-image: url(Figures/educator.jpg)
+background-position: right
+background-size: contain
+
+# To conclude
+
+- An imperative to act now for the planet
+- Assuming our role from the university 
+- A holistic, systemic and interdisciplinary vision &lt;br/&gt; is necessary 
+- Technology must be considered in &lt;br/&gt; its socio-technical context
+- True interdisciplinarity is fundamental &lt;br/&gt;*(let's take the risk)*
+- Community integration is indispensable, &lt;br/&gt;it's about **co-building solutions**. 
+
+
+---
+
+class: middle, left
+background-image: url(Figures/Climatelabs.png)
+background-position: center
+background-size: contain
+
+
+
+---
+class: middle
+
+# EU projects 
+
+.pull-left[
+![:scale 70%](Figures/Smagrinet.png) 
+https://www.smagrinet.eu/
+
+![](Figures/digiterri.png)
+https://digiterri.eu/
+
+] 
+.pull-right[
+
+
+![:scale 100%](Figures/inedit.png)
+https://www.inedit-project.eu/
+]
+
+
+---
+class: middle, center
+
+# Thanks..
+
+### cruzsanc@univ-lorraine.fr
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="Assets/macros.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
