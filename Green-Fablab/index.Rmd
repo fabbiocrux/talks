@@ -3,7 +3,7 @@ title: "Green Fablab: Towards an Industrial Symbiosis for distributed recycling 
 subtitle: "Licence AFTER"
 author: "Fabio Cruz & Fedoua Kasmi"
 institute: "Université de Lorraine --- ERPI"
-date: "2021/01/14"
+date: "2021/01/21"
 output:
   xaringan::moon_reader:
     css: [default, "Assets/css/Fabio.css", "Assets/css/Fabio-fonts.css"]
@@ -36,19 +36,68 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 <br>
 
-`r emo::ji("calendar")`  Jan 14, 2021 <br>
+`r emo::ji("calendar")`  Jan 21, 2021 <br>
 `r emo::ji("clock8")`  09:00 - 17:00 <br>
 `r emo::ji("round_pushpin")`  Teams <br>
 <br>
 
 | Time          | Activity                |
 |:--------------|:------------------------|
-| 09:00 - 12:00 | Introduction of IS of Green Fablab  |
+| 09:00 - 12:00 | Discussion sure seminaire <br> Introduction of IS of Green Fablab  |
 | 12:00 - 13:30 | *Break* `r emo::ji("apple")`        |
-| 13:30 - 17:00 |  Seminaire |
+| 14:00 - 17:00 |  Atélier on competences IS |
+
+---
+class: middle
+
+*"Le terme tieurs-lieu désigne une situation où plusieurs perssones indépandantes les unes des autres se rencontrer pour **concevoir et administrer quelque chose en commun**- <br> qu'il s'agisse d'une recette de cuisine, d'un service informatique ou d'un texte de loi*
+
+
+- Les tiers-lieux, milieux et hyperlieux?
+---
+class: middle
+
+.content-box-green[Comment je peux vivre en tant que tiers lieux en faisant partie d’un tout, mais en gardant mon unicité, mes valeurs, ce qui me définit?]
+
+---
+class: middle
+
+Qu’est ce qui fait de mon tiers lieux un espace reconnu comme tel et distinct de tout autre chose, qui me permet de survivre, de trouver mon public et le fidéliser, tout en arborant des principes communs à mes congénères?
+
 
 ---
 
+class: middle
+
+.center[*Quelle est la **valeur** d'un tieurx-lieu?*]
+
+.center[*Pour quelle partie prenante??*]
+
+.center[.content-box-green[Le tiers-lieu est donc devenu un marché?]]
+---
+class: middle
+# Où vous posisionez votre tieur-lieu?
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Tieurs-lieu/Espaces-hybrides.jpg'))
+```
+
+Tiers-lieux Vs. coworking?
+
+
+---
+class: middle
+
+*Comment les politiques peuvent êtres prêts à investir dans ce genre d’expérimentations qui sont un peu des cobayes, on ne peut être sûr du résultat d’une telle expérience?*
+
+---
+class: middle
+
+**Commons:**  
+- Patrimoine informationnel commun?
+- Droit sur la transition des communs?
+
+---
 class: middle
 
 # How the .green[<ins>Tieurs Lieux</ins>] help to societal transitions...?
