@@ -44,7 +44,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 | Time          | Activity                |
 |:--------------|:------------------------|
 | 09:00 - 12:00 | Discussion sure seminaire <br> Introduction of IS of Green Fablab  |
-| 12:00 - 13:30 | *Break* `r emo::ji("apple")`        |
+| 12:00 - 14:00 | *Break* `r emo::ji("apple")`        |
 | 14:00 - 17:00 |  Atélier on competences IS |
 
 ---
@@ -96,6 +96,19 @@ class: middle
 **Commons:**  
 - Patrimoine informationnel commun?
 - Droit sur la transition des communs?
+
+
+---
+class: middle
+
+# Conclusions?
+
+---
+class: middle
+
+### Prenons un pause de 15 min `r emo::ji("apple")` ....
+
+
 
 ---
 class: middle
