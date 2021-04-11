@@ -289,8 +289,6 @@ class: clear, center, middle
 
 ## Distributed recycling via additive manufacturing (DRAM)
 
-
-
 .pull-left[
 -Local closed loop  <br>
 -AM adds value  <br>
@@ -368,6 +366,9 @@ Technical system
 ]
 
 ---
+
+background-image: url(`r paste0(URL, 'DRAM/DRAM-02.png')`)
+
 
 ---
 

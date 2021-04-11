@@ -16,7 +16,7 @@ To specify the margin of the first title h1
   color: #0148A4;
 }
 .remark-slide-content > h2:first-of-type {
-  color: #e64626;
+  color: #0148A4;  /*#e64626;*/
   margin-top: 5px;
   margin-bottom: 10px;
 }
