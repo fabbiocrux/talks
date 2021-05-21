@@ -3,8 +3,8 @@ title: "Lorraine Fab Living Lab®"
 subtitle: "Co-design Platform supporting Collaborative innovation"  
 institution: "Université de Lorraine – ERPI & ENSGSI"
 author: 
-  - "Fabio CRUZ"
-  - "Laurent DUPONT"
+  - "Fabio CRUZ (UTT-CREIDD / UL)"
+  - "Laurent DUPONT (UL)"
 date: "May, 2021"
 #output: powerpoint_presentation
 output:
@@ -26,7 +26,8 @@ always_allow_html: true
 options(htmltools.dir.version = FALSE)
 
 # Libraries & Setup
-#source("Setup.R")
+source("Setup.R")
+
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -132,13 +133,15 @@ knitr::include_graphics(paste0(URL, 'LF2L/History/history-01.png'))
 
 ## Living Lab space in the city 
 
-Co-design of a new urban space at Nancy
+**Transfert du génie industriel vers l'ingénierie urbaine: vers une approche collaborative des projets urbains (2009), <br>
+Laurent DUPONT.**
+
+
 ```{r, out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/History/history-03.png'))
 ```
 
-
-**Spaces supporting Urban Living Labs**
+**Co-design of a new urban space at Nancy**
 
 ---
 
@@ -155,12 +158,16 @@ knitr::include_graphics(paste0(URL, 'LF2L/History/history-02.png'))
 
 ## Fab Living Lab
 
+.pull-left[
 ```{r, out.width = '1000%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/History/history-03.png'))
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-01.png'))
 ```
+]
 
----
+.pull-right[
+<a data-flickr-embed="true" data-footer="true" data-context="true" href="https://www.flickr.com/photos/101465988@N05/23765370036/in/album-72157662300970412/" title="Atelier IngEXys 2015 &quot;bien vieillir Chez soi en santé et en Autonomie&quot;"><img src="https://live.staticflickr.com/5659/23765370036_9a56e99312.jpg" width="500" height="375" alt="Atelier IngEXys 2015 &quot;bien vieillir Chez soi en santé et en Autonomie&quot;"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+]
 
 
 ---
@@ -178,7 +185,7 @@ knitr::include_graphics(paste0(URL, 'LF2L/Ecosystem/Ecosystem-00.png'))
 ## Complementary dynamics and technologies
 
 
-```{r, out.width = '1000%', fig.align='center'}
+```{r, out.width = '50%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/Methodology-01.jpg'))
 ```
 
@@ -202,7 +209,59 @@ knitr::include_graphics(paste0(URL, 'LF2L/Methodology-02.png'))
 knitr::include_graphics(paste0(URL, 'LF2L/Methodology-complet-00.jpg'))
 ```
 
+---
+
+## Projects
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-00.png'))
+```
+
+---
+
+## Projects
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-01.png'))
+```
 
 
+---
 
+## Projects
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-02.png'))
+```
+
+
+---
+
+## Projects
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Velo-00.png'))
+```
+
+
+---
+
+## Projects
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2018/Buddyip.png'))
+```
+
+
+---
+
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2019/3Dsoil.png'))
+```
+
+
+---
+
+## Open
 

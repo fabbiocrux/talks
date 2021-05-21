@@ -147,8 +147,8 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
-  background-size: 70%;
+  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/LF2L/LF2L-Horizontal.jpg");
+  background-size: 50%;
   background-position: 50% 15%;
 }
 .title-slide .remark-slide-number {
