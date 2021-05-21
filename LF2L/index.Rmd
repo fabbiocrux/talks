@@ -221,8 +221,8 @@ knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-00.png'))
 
 ## Projects
 
-```{r, out.width = '1000%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-01.png'))
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2018/linky.png'))
 ```
 
 
@@ -230,7 +230,7 @@ knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-01.png'))
 
 ## Projects
 
-```{r, out.width = '1000%', fig.align='center'}
+```{r, out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-02.png'))
 ```
 
@@ -256,12 +256,45 @@ knitr::include_graphics(paste0(URL, 'LF2L/Projects/2018/Buddyip.png'))
 ---
 
 
-```{r, out.width = '1000%', fig.align='center'}
+```{r, out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/Projects/2019/3Dsoil.png'))
 ```
 
 
 ---
 
-## Open
+## Open Citizen Labs
+
+.pull-left[
+<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/101465988@N05/albums/72157680960440083" title="10 ans l&#x27;Autre Canal"><img src="https://live.staticflickr.com/2889/33903907580_0fcb3cb06d_w.jpg" width="375" height="500" alt="10 ans l&#x27;Autre Canal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+]
+.pull-right[
+<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/101465988@N05/albums/72157662602577298" title="Open Citizen Lab #1"><img src="https://live.staticflickr.com/4267/35049173185_b949e808d9_w.jpg" width="375" height="500" alt="Open Citizen Lab #1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+]
+
+
+---
+
+
+## European projects
+
+
+.pull-left[
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Climatelabs/Climatelabs.png'))
+```
+
+]
+.pull-right[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/projects/inedit/posters/poster-1/poster.jpeg')
+```
+]
+
+
+---
+
+# Thanks
+
 
