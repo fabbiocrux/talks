@@ -84,11 +84,28 @@ knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
 
 ---
 
-## The basics
+## Foundation
 
 ```{r, out.width = '90%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
 ```
+
+
+---
+
+class: middle
+
+## Place 
+
+.pull-left[
+### At the center of the city
+]
+
+.pull-right[
+<iframe src="https://www.google.com/maps/d/embed?mid=zjoguh0NVOXo.kZTYPT-5FrXA"  width="100%" height="500px"></iframe>
+]
+
+
 
 ---
 
