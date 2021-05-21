@@ -106,7 +106,6 @@ class: middle
 ]
 
 
-
 ---
 
 ## Materialize .bg-yellow[citizen innovation]?
@@ -320,6 +319,9 @@ knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/projects/ine
 
 ---
 
+class: middle
+
 # Thanks
 
 
+More information on https://lf2l.fr/ 
