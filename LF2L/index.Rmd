@@ -1,0 +1,208 @@
+---
+title: "Lorraine Fab Living Lab®"
+subtitle: "Co-design Platform supporting Collaborative innovation"  
+institution: "Université de Lorraine – ERPI & ENSGSI"
+author: 
+  - "Fabio CRUZ"
+  - "Laurent DUPONT"
+date: "May, 2021"
+#output: powerpoint_presentation
+output:
+  xaringan::moon_reader:
+    css: ["assets/xaringan-themer.css", "assets/INEDIT.css"]
+    seal: false
+    nature:
+#      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+# Libraries & Setup
+#source("Setup.R")
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE,
+  include = TRUE
+)
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+#library(xaringanBuilder)
+#build_pdf("index.Rmd")
+
+# xaringanExtra
+#xaringanExtra::use_panelset()
+#xaringanExtra::use_share_again()
+```
+
+
+
+class: title-slide, left, bottom, 
+
+
+```{r, out.width = '250px', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
+```
+
+
+
+# `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+## `r rmarkdown::metadata$institution`
+
+### `r rmarkdown::metadata$author`
+
+`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date` `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$date`
+
+---
+
+# Agenda
+
+1. Some concepts: FabLab, Living labs, etc. 
+2. The Genesis of LF2L
+3. The 2D-3D-4D process, a continuum of innovation 
+
+
+---
+
+## The basics
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```
+
+---
+
+## Materialize .bg-yellow[citizen innovation]?
+
+```{r, out.width = '95%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Materialize-Innovation-00.png'))
+```
+
+---
+
+## Creative spaces and FabLab in the university
+
+**Main research question since 2005**: 
+> How to evaluate of the .bg-green[Innovation process] (not the innovation itself?)
+  - Fuzzy-front end Innovation ? (User needs, Weak signals, Idea genesis, opportunity validation, and concept development )
+  - Creativity phases --> The “idea generation effort”
+
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-00.png'))
+```
+
+- **From 2010 to December 2013  50 m2 at ENSGSI**
+
+
+---
+
+## Living Lab space in the city 
+
+**Transfert du génie industriel vers l'ingénierie urbaine: vers une approche collaborative des projets urbains (2009), <br>
+Laurent DUPONT.**
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-01.png'))
+```
+
+**Main research question: .bg-yellow[Construction of the Future's City by the citizens]**
+
+
+---
+
+## Living Lab space in the city 
+
+Co-design of a new urban space at Nancy
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-03.png'))
+```
+
+
+**Spaces supporting Urban Living Labs**
+
+---
+
+## Living Lab space in the city 
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-02.png'))
+```
+
+**Living Lab spaces and projects with territories + companies + citizens**
+
+
+---
+
+## Fab Living Lab
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-03.png'))
+```
+
+---
+
+
+
+---
+
+
+# Collaborative Ecosystem 
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Ecosystem/Ecosystem-00.png'))
+```
+
+
+---
+
+## Complementary dynamics and technologies
+
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Methodology-01.jpg'))
+```
+
+Fab Living Lab is an innovation continuum and iterative process
+
+---
+
+
+## Platform conceptualization
+
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Methodology-02.png'))
+```
+
+---
+
+## Complementary dynamics and technologies
+
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Methodology-complet-00.jpg'))
+```
+
+
+
+
+
