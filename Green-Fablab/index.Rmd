@@ -36,24 +36,46 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 <br>
 
-`r emo::ji("calendar")`  Jan 21, 2021 <br>
-`r emo::ji("clock8")`  09:00 - 17:00 <br>
-`r emo::ji("round_pushpin")`  Teams <br>
+`r emo::ji("calendar")`  Fev 01, 2022 <br>
+`r emo::ji("clock8")`  09:00 - 12:00 <br>
+`r emo::ji("round_pushpin")`  LF2L <br>
 <br>
 
 | Time          | Activity                |
 |:--------------|:------------------------|
-| 09:00 - 12:00 | Discussion sure seminaire <br> Introduction of IS of Green Fablab  |
-| 12:00 - 14:00 | *Break* `r emo::ji("apple")`        |
-| 14:00 - 17:00 |  Atélier on competences IS |
+| 09:00 - 12:00 | Introduction of Green Fablab  |
+| 12:00 - 14:00 | *Break* `r emo::ji("apple")`  |
+| 14:00 - 17:00 | Recycling and Desing (Hakim Boudaoud)   |
+
+---
+
+
+
+# Precious Plastic Inspiration
+
+.center[
+<iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+
+https://preciousplastic.com/
+
 
 ---
 class: middle
 
+
+# Tiers lieux
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aA1bms9pDUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
 *"Le terme tieurs-lieu désigne une situation où plusieurs personnes indépendantes les unes des autres se rencontrent pour **concevoir et administrer quelque chose en commun**- <br> qu'il s'agisse d'une recette de cuisine, d'un service informatique ou d'un texte de loi*
 
 
-- Les tiers-lieux, tier-milieux et hyperlieux?
+[Burret, A., 2017. Etude de la configuration en Tiers-Lieu : la repolitisation par le service.](https://www.theses.fr/2017LYSE2001)
+
+[Seminaire sur Tieurs-Lieux](https://pod.utt.fr/video/1889-antoine_burret_seminaire3s_2021mp4/2a4854a0db4085b0a818f30b4f2175c13f3bb52e788c3ef2901bea35afb1958b/)
 ---
 class: middle
 
@@ -74,40 +96,20 @@ class: middle
 .center[*Pour quelle partie prenante??*]
 
 .center[.content-box-green[Le tiers-lieu est donc devenu un marché?]]
+
+
 ---
 class: middle
-# Où vous posisionez votre tieur-lieu?
+# Où vous mettez votre tieur-lieu?
 
 ```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Tieurs-lieu/Espaces-hybrides.jpg'))
 ```
 
-Tiers-lieux Vs. coworking?
-
-
 ---
 class: middle
 
 *Comment les politiques peuvent êtres prêts à investir dans ce genre d’expérimentations qui sont un peu des cobayes, on ne peut être sûr du résultat d’une telle expérience?*
-
----
-class: middle
-
-**Commons:**  
-- Patrimoine informationnel commun?
-- Droit sur la transition des communs?
-
-
----
-class: middle
-
-# Conclusions?
-
----
-class: middle
-
-### Prenons un pause de 15 min `r emo::ji("apple")` ....
-
 
 
 ---
@@ -131,7 +133,6 @@ Source. Plastics Europe 2018
 
 # The problem
 
----
 
 background-image: url(`r paste0(URL, 'Plastics/Plastic-problem-00.jpg')`) 
 ---
@@ -191,10 +192,6 @@ knitr::include_graphics(paste0(URL, 'Plastics/Plastic-problem-05.jpg'))
 
 # What is polymer recycling?
 
----
-
-# Polymer Recycling in the literature
-
 
 ```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Recycling/Polymer-recycling-01.png'))
@@ -203,7 +200,7 @@ knitr::include_graphics(paste0(URL, 'Recycling/Polymer-recycling-01.png'))
 
 ---
 
-# Polymer Recycling in the literature
+# What is polymer recycling?
 
 
 ```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
@@ -266,8 +263,6 @@ knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-01.png'))
 ```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-02.png'))
 ```
-
-
 
 
 ---
@@ -366,17 +361,12 @@ Technical system
 ]
 
 ---
-
-background-image: url(`r paste0(URL, 'DRAM/DRAM-02.png')`)
-
-
----
-
+exclude: true
 
 ## Distributed recycling via additive manufacturing (DRAM)
 Technical system
 
-FGF
+
 
 
 .footnote[
@@ -511,31 +501,22 @@ Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop 
 
 ---
 
+# Our demostrator
 
-
----
-
-class: middle
-
-
-```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycling-is-coming.png'))
+.pull-left-2[
+```{r, out.width = '100%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
 ```
-
-
----
-
-# Recycling is coming
-
-## Precious Plastic Inspiration
-
-.center[
-<iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+.pull-right-1[
+```{r, out.width = '100%', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi-1.jpg'))
+```
 ]
 
 
 ---
-
+exclude: true
 ## Precious Plastic Inspiration
 
 
@@ -544,7 +525,7 @@ knitr::include_graphics(paste0(URL, 'Plastics/Precious/Precious-plastic-01.jpg')
 ```
 
 ---
-
+exclude: true
 ## Precious Plastic Inspiration
 
 .pull-left[
@@ -583,7 +564,7 @@ knitr::include_graphics(paste0(URL, 'Green-Fablab/17-Initiatives/Initiatives-00.
 ]
 
 ---
-
+exclude: true
 ## Other Inspirations
 
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
@@ -592,7 +573,7 @@ knitr::include_graphics(paste0(URL, 'DRAM/DRAM-exemples-01.png'))
 
 
 ---
-
+exclude: true
 class: middle center
 
 # Hands on the machines !
@@ -600,7 +581,7 @@ class: middle center
 
 
 ---
-
+exclude: true
 # Hands on !
 ## Gigabot
 
@@ -617,7 +598,7 @@ knitr::include_graphics(paste0(URL, 'Gigaboot/Gigaboot-00.jpg'))
 ]
 
 ---
-
+exclude: true
 # Hands on !
 ## Holipresse
 
