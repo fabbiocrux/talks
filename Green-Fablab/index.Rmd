@@ -3,7 +3,7 @@ title: "Green Fablab: Towards an Industrial Symbiosis for distributed recycling 
 subtitle: "Licence AFTER"
 author: "Fabio Cruz & Fedoua Kasmi"
 institute: "Université de Lorraine --- ERPI"
-date: "2021/01/21"
+date: "2022/02/02"
 output:
   xaringan::moon_reader:
     css: [default, "Assets/css/Fabio.css", "Assets/css/Fabio-fonts.css"]
