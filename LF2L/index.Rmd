@@ -5,7 +5,7 @@ institution: "Université de Lorraine – ERPI & ENSGSI"
 author: 
   - "Fabio CRUZ (UTT-CREIDD / UL)"
   - "Laurent DUPONT (UL)"
-date: "May, 2021"
+date: "March, 2022"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
@@ -176,7 +176,6 @@ knitr::include_graphics(paste0(URL, 'LF2L/History/history-02.png'))
 ```
 
 **Living Lab spaces and projects with territories + companies + citizens**
-
 
 ---
 
