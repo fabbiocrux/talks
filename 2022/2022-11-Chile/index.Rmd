@@ -128,15 +128,42 @@ class: middle
 ---
 
 
+
 class: middle
 
 # Outline 
 
 1.  Who I am?
+1.  Lorraine Fab Living Lab
+1.  .large.bg-yellow[Societal challenges for sustainable manufacturing]
+1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
+1. Put in reality
+1. Some Future considerations
+
+
+
+---
+
+```{r Issues, child="structure/03-Societal-issues.Rmd", include=TRUE, eval=TRUE}
+
+```
+
+---
+
+
+class: middle
+
+# Outline 
+
+1.  Who I am?
+1.  Lorraine Fab Living Lab
 1.  .large.bg-yellow[Societal challengues for sustainable manufacturing]
 1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
 1. Put in reality
 1. Some Future considerations
+
+
+---
 
 
 ---

@@ -101,7 +101,18 @@ knitr::include_graphics(paste0(URL, 'LF2L/Ecosystem/Ecosystem-00.png'))
 
 
 ```{r, out.width = '50%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Methodology-02.jpg'))
+knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-01.jpg'))
+```
+
+Fab Living Lab is an innovation continuum and iterative process
+
+---
+
+## Complementary dynamics and technologies
+
+
+```{r, out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-02.jpg'))
 ```
 
 Fab Living Lab is an innovation continuum and iterative process
