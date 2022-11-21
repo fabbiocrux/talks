@@ -1,0 +1,183 @@
+
+##  How our Innovation Lab started?
+
+ .pull-left-2[
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Fablab/Fablab-01.png'))
+```
+]
+.pull-right-1[
+```{r,  out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
+```
+
+```{r,  out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Wiki.png'))
+```
+
+]
+
+---
+
+## Materialize .bg-yellow[citizen innovation]?
+
+```{r, out.width = '95%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Materialize-Innovation-00.png'))
+```
+
+How to evaluate of the .bg-green[Innovation process]?
+  - Fuzzy-front end Innovation ? (User needs, Weak signals, Idea genesis, opportunity validation, and concept development )
+  - Creativity phases --> The “idea generation effort”
+
+---
+
+
+## Living Lab space in the city 
+
+**From industrial engineering to urban engineering -->
+Laurent DUPONT.**
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-01.png'))
+```
+
+**Main research question: .bg-yellow[Construction of the Future's City by the citizens]**
+
+
+---
+
+## Living Lab space in the city 
+
+**Co-design of a new urban space at Nancy**
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-03.png'))
+```
+
+**Main research question: .bg-yellow[Construction of the Future's City by the citizens]**
+
+
+
+---
+
+## Living Lab space in the city 
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/History/history-02.png'))
+```
+
+**Living Lab spaces and projects with territories + companies + citizens**
+
+---
+
+## Fab Living Lab
+
+.pull-left[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-01.png'))
+```
+]
+
+.pull-right[
+
+<a data-flickr-embed="true" data-footer="true" data-context="true" href="https://www.flickr.com/photos/101465988@N05/23765370036/in/album-72157662300970412/" title="Atelier IngEXys 2015 &quot;bien vieillir Chez soi en santé et en Autonomie&quot;"><img src="https://live.staticflickr.com/5659/23765370036_9a56e99312.jpg" width="500" height="375" alt="Atelier IngEXys 2015 &quot;bien vieillir Chez soi en santé et en Autonomie&quot;"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+]
+
+
+---
+
+
+## Collaborative Ecosystem 
+
+```{r, out.width = '95%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Ecosystem/Ecosystem-00.png'))
+```
+
+
+---
+
+## Complementary dynamics and technologies
+
+
+```{r, out.width = '50%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Methodology-02.jpg'))
+```
+
+Fab Living Lab is an innovation continuum and iterative process
+
+
+---
+
+## Complementary dynamics and technologies
+
+```{r, out.width = '45%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-complet-00.jpg'))
+```
+
+Fab Living Lab is an innovation continuum and iterative process
+
+
+---
+
+## Projects: Archeology
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-00.png'))
+```
+
+---
+
+## Projects: Archeology
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Archeologie-02.png'))
+```
+
+---
+
+## Projects: Smart Grid
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2018/linky.png'))
+```
+
+
+---
+
+## Projects: Smart cycle
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2016/Velo-00.png'))
+```
+
+---
+
+## Projects: Handicap cycle
+
+```{r, out.width = '1000%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2018/Buddyip.png'))
+```
+
+
+---
+
+## Projects: Printing soil
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Projects/2019/3Dsoil.png'))
+```
+
+
+---
+
+## Projects: Open Citizen Labs
+
+.pull-left[
+<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/101465988@N05/albums/72157680960440083" title="10 ans l&#x27;Autre Canal"><img src="https://live.staticflickr.com/2889/33903907580_0fcb3cb06d_w.jpg" width="375" height="500" alt="10 ans l&#x27;Autre Canal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+]
+.pull-right[
+<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/101465988@N05/albums/72157662602577298" title="Open Citizen Lab #1"><img src="https://live.staticflickr.com/4267/35049173185_b949e808d9_w.jpg" width="375" height="500" alt="Open Citizen Lab #1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+]
+
+

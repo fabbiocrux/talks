@@ -1,0 +1,180 @@
+
+class: top, left
+background-image: url(`r paste0(URL, 'Green-Fablab/Green-fablab-2.jpg')`)
+background-position: 100% 80%
+background-size: 65%
+
+# Distributed recycling via additive manufacturing
+
+- Local closed-loop ➡️ Virgin / recycled ➡️ FFF / FGF
+
+.pull-left-1.small[
+<br>
+<br>
+```{r, out.width = '90%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
+```
+
+https://lf2l.fr/projects/green-fablab/
+]
+
+---
+
+## Future of Additive Manufacturing
+
+```{r}
+knitr::include_graphics(paste0(URL, 'AM/Future/Future-01.png'))
+```
+
+
+---
+
+class: bottom, left
+background-image: url(`r paste0(URL, 'Metodologies/Master-recherche/Master-00.png')`)
+background-position: 50% 10%
+background-size: 85%
+
+Cruz Sanchez, F. A., Boudaoud, H., Muller, L. & Camargo, M. <br> Towards a standard experimental protocol for open source additive manufacturing. Virtual and Physical Prototyping 9, 151–167 (2014).
+
+---
+
+class: bottom, left
+background-image: url(`r paste0(URL, 'AM/OS/Reprap-01.png')`)
+background-position: 50% 10%
+background-size: 85%
+
+Self-replicating manufacturing machine --> .bg-yellow[**Paradox of Jevons**]?
+
+<br>
+
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Thesis/Recycling-00.jpg')`)
+background-position: 50% 100%
+background-size: 86%
+
+## Technical validation of DRAM
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Pavlo/Pavlo-00.jpg')`)
+background-position: 50% 50%
+background-size: 95%
+
+
+## Logistical validation of DRAM
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-01.jpg')`)
+background-position: 50% 40%
+background-size: 85%
+
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+
+---
+
+name: SDRAM09
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM/SDRAM-09.jpg')`)
+background-position: 50% 40%
+background-size: 85%
+
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+
+---
+
+template:  SDRAM09
+
+---
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM/SDRAM-10.jpg')`)
+background-position: 50% 45%
+background-size: 85%
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-04.jpg')`)
+background-position: 50% 45%
+background-size: 85%
+
+.pull-left-1[
+
+```{r, out.width='70%'}
+knitr::include_graphics(paste0(URL, 'Articles/2020-Artur/Artur-01.jpg'))
+```
+
+]
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-05.jpg')`)
+background-position: 50% 55%
+background-size: 85%
+
+
+.pull-left-1[
+
+```{r, out.width='90%'}
+knitr::include_graphics(paste0(URL, 'Articles/2022-Diego/Results.jpg'))
+```
+
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-06.jpg')`)
+background-position: 50% 55%
+background-size: 85%
+
+ 
+.pull-down.pull-left-1[
+
+.bg-white[Open Source IoT-based Collection Bin Applied to Local Plastic Recycling. HardwareX. *In review*.]
+```{r, out.width='90%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-mdc.png'))
+```
+
+
+]
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-07.jpg')`)
+background-position: 50% 55%
+background-size: 85%
+
+--
+
+class: top, left
+background-image: url(`r paste0(URL, 'Articles/2022-Pavlo/Results-01.jpg')`)
+background-position: 50% 55%
+background-size: 85%
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-00.svg')`)
+background-position: 50% 55%
+background-size: 80%
+
+
+## SDRAM: .... Work in progress ...
+
