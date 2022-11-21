@@ -18,6 +18,13 @@ output:
       navigation:
         scroll: false # disable slide transitions by scrolling
 always_allow_html: true
+params:
+  Fabio: TRUE
+  LF2L: TRUE
+  Issues: TRUE
+  DRAM: TRUE
+  INEDIT: TRUE
+  Future: TRUE
 ---
 
 
@@ -93,17 +100,19 @@ class: middle
 1.  .large.bg-yellow[Who I am?]
 1.  Lorraine Fab Living Lab
 1.  Societal challenges for sustainable manufacturing
-1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
+1. Sustainable Distributed Recycling via Additive Manufacturing (SDRAM)
 1. Put in reality
 1. Some Future considerations
 
 ---
 
-```{r Me, child="structure/01-Fabio.Rmd", include=TRUE, eval=TRUE}
+```{r Me, child="structure/01-Fabio.Rmd", include=params$Fabio, eval=params$Fabio}
 
 ```
 
 ---
+
+
 
 class: middle
 
@@ -112,7 +121,7 @@ class: middle
 1.  Who I am?
 1.  .large.bg-yellow[Lorraine Fab Living Lab]
 1.  Societal challenges for sustainable manufacturing
-1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
+1. Sustainable Distributed Recycling via Additive Manufacturing (SDRAM)
 1. Put in reality
 1. Some Future considerations
 
@@ -120,23 +129,42 @@ class: middle
 ---
 
 
-```{r LF2L, child="structure/02-LF2L.Rmd", include=TRUE, eval=TRUE}
+```{r LF2L, child="structure/02-LF2L.Rmd", include=params$LF2L, eval=params$LF2L}
 
 ```
 
 
+
 ---
-
-
-
-class: middle
 
 # Outline 
 
 1.  Who I am?
 1.  Lorraine Fab Living Lab
 1.  .large.bg-yellow[Societal challenges for sustainable manufacturing]
-1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
+1. Sustainable Distributed Recycling via Additive Manufacturing (SDRAM)
+1. Put in reality
+1. Some Future considerations
+
+
+---
+
+
+```{r Issues, child="structure/03-Societal-issues.Rmd", include=params$Issues, eval=params$Issues}
+
+```
+
+
+---
+
+class: middle
+
+# Outline 
+
+1.  Who I am?
+1.  Lorraine Fab Living Lab
+1.  Societal challenges for sustainable manufacturing
+1. .large.bg-yellow[Sustainable Distributed Recycling via Additive Manufacturing (SDRAM)]
 1. Put in reality
 1. Some Future considerations
 
@@ -144,7 +172,8 @@ class: middle
 
 ---
 
-```{r Issues, child="structure/03-Societal-issues.Rmd", include=TRUE, eval=TRUE}
+
+```{r DRAM, child="structure/04-DRAM.Rmd", include=params$DRAM, eval=params$DRAM}
 
 ```
 
@@ -157,48 +186,20 @@ class: middle
 
 1.  Who I am?
 1.  Lorraine Fab Living Lab
-1.  .large.bg-yellow[Societal challengues for sustainable manufacturing]
-1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
-1. Put in reality
-1. Some Future considerations
-
-
----
-
-
----
-
-class: middle
-
-# Outline 
-
-1.  Who I am?
-1.  Societal challengues for sustainable manufacturing
-1. .large.bg-yellow[Approach of Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM)] 
-1. Put in reality
-1. Some Future considerations
-
-
----
-
----
-
-class: middle 
-
-# Outline 
-
-1.  Who I am?
-1.  Societal challengues for sustainable manufacturing
-1. Approach of Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM) 
+1.  Societal challenges for sustainable manufacturing
+1. Sustainable Distributed Recycling via Additive Manufacturing (SDRAM)
 1. .large.bg-yellow[Put in reality]
 1. Some Future considerations
 
-# Mode **Do-It-Together**
 
 ---
 
----
+```{r INEDIT, child="structure/05-INEDIT.Rmd", include=params$INEDIT, eval=params$INEDIT}
 
+```
+
+
+---
 
 class: middle 
 
@@ -206,15 +207,18 @@ class: middle
 
 1.  Who I am?
 1.  Societal challengues for sustainable manufacturing
-1. Approach of Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM) 
+1. Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM) 
 1. Put in reality
 1. .large.bg-yellow[Some Future considerations]
 
 
 ---
 
----
+```{r Future, child="structure/06-Future.Rmd", include=params$Future, eval=params$Future}
 
+```
+
+---
 
 class: title-slide, center, bottom
 

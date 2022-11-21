@@ -73,3 +73,16 @@ background-image: url(`r paste0(URL, 'DRAM/DRAM-05.jpeg')`)
 background-position: 50% 50%
 background-size: 90%
 
+
+---
+class: middle 
+
+# Outline 
+
+1.  Who I am?
+1.  Societal challengues for sustainable manufacturing
+1. Approach of Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM) 
+1. .large.bg-yellow[Put in reality]
+1. Some Future considerations
+
+# Mode **Do-It-Together**
