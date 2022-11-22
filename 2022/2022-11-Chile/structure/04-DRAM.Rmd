@@ -46,8 +46,42 @@ knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
 - https://lf2l.fr/projects/green-fablab/
 
 
+
+---
+background-image: url(`r paste0(URL, 'Recycling/Polymer-recycling-02.png')`)
+background-position: 100% 80%
+background-size: 50%
+
+## Challengue
+
+The development of sustainable industrial supply chains
+
+.pull-left[
+- Only **.red[tech-economic criteria]** alone do not (no longer) enables a .orange[informed decision making]. 
+
+- Need to assess value chains to anclude **all impacts on ecosystems**
+
+- A more holistic vision is needed to assess the feasibility of these new bottom-up sectors for **territorial and industrial agents**.
+]
+
+.pull-right[
+For example
+
+]
+
 ---
 
+
+# Distributed recycling
+
+Technical system --> Global *system* embedded in a *territory*!
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-Territory-00.jpg'))
+```
+
+
+---
 
 class: top, left
 background-image: url(`r paste0(URL, 'DRAM/SDRAM-01.jpg')`)
