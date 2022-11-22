@@ -112,7 +112,7 @@ Fab Living Lab is an innovation continuum and iterative process
 
 
 ```{r, out.width = '70%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-02.jpg'))
+knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-02.png'))
 ```
 
 Fab Living Lab is an innovation continuum and iterative process
@@ -122,7 +122,7 @@ Fab Living Lab is an innovation continuum and iterative process
 
 ## Complementary dynamics and technologies
 
-```{r, out.width = '45%', fig.align='center'}
+```{r, out.width = '85%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'LF2L/Fablivinglab/Methodology-complet-00.jpg'))
 ```
 
