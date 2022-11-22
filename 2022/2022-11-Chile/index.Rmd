@@ -1,5 +1,5 @@
 ---
-title: "Sustainable distributed recycling via additive manufacturing (SDRAM): <br>from a technical to systemic challenge"
+title: "Innovations labs for technical to systemic challenges: The case of distributed recycling"
 email: "cruzsanc1@univ-lorraine.fr"
 subtitle: ""  
 author: 
