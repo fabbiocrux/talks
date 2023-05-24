@@ -1,0 +1,76 @@
+
+## Projet EU H2020 INEDIT
+
+.pull-left[
+
+Open **IN**novation **E**cosystem for **D**o-**I**t-**T**ogether process
+
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP7/INEDIT_Brochure-01.jpg'))
+```
+
+
+]
+
+.pull-right[
+
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
+```
+
+- From DYI to the definition DIT `r fa("check", fill = "steelblue")`
+- Formalisation DIT `r fa("check", fill = "steelblue")`
+- Open Manufacturing Demostrator (OMDF) `r fa("spinner", fill = "steelblue")`
+- .bg-green[**Demostrator (UL)**] `r fa("spinner", fill = "steelblue")`
+
+```{r, out.width = '80%'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
+```
+
+]
+
+
+---
+
+class: bottom, left
+background-image: url(`r paste0(URL, 'Octroi/Octroi-00.png')`)
+background-position: 50% 50%
+background-size: 90%
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Inedit/Concept-01.jpg')`)
+background-position: 90% 30%
+background-size: 100%
+
+
+## Projet EU H2020 INEDIT
+
+---
+class: middle
+
+.center[
+
+```{r}
+embed_youtube(
+  "tQgD4KITCVE",
+  width = 1200,
+  height = 600,
+  ratio = "4by3",
+  frameborder = 0,
+  allowfullscreen = TRUE,
+)
+```
+
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/DRAM-05.jpeg')`)
+background-position: 50% 50%
+background-size: 90%
+
+

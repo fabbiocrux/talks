@@ -1,0 +1,49 @@
+
+## Who am I?
+
+.pull-left-1[
+```{r, out.width = '70%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
+```
+
+]
+
+--
+
+.pull-right-2[ 
+
+- **2005 - 2012**:  Universidad Nacional de Colombie
+   - .large[`r emo::ji("brazil")`] **2010**: International trainee 
+   
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("images/brazil/Brazil.png")
+```
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'LF2L/Concept/Concept-00.png')`)
+background-position: 100% 5%
+background-size: 65%
+
+
+## Who am I?
+.pull-left-1[
+```{r, out.width = '70%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
+```
+
+]
+
+
+.pull-right-2[
+
+<br> <br> <br> <br> <br> <br><br> <br> <br> 
+
+**Innovation**: 
+- As a product.
+- As a process.
+- As a complex system.
+- As territorial asset.
+]

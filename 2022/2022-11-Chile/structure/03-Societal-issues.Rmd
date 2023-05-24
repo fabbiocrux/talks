@@ -1,0 +1,164 @@
+
+class: top, left
+background-image: url(`r paste0(URL, 'Anthropocene/anthropocene.jpeg')`)
+background-position: 100% 50%
+background-size: 45%
+
+## Anthropocène: <br>  Humans as a geological force ...
+
+.pull-left[
+
+Steffen, et al. The Anthropocene: conceptual and historical perspectives. Phil. Trans. R. Soc. A. 369, 842–867 (2011).
+
+- Earth is now moving out of its current geological epoch (Holocene)
+
+- human activity is largely responsible for this exit
+]
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Anthropocene/steffen2011.png')`)
+background-position: 100% 50%
+background-size: 45%
+
+## Anthropocène: <br>  Humans as a geological force ...
+
+
+.pull-left[
+
+Steffen, et al. The Anthropocene: conceptual and historical perspectives. Phil. Trans. R. Soc. A. 369, 842–867 (2011).
+
+- The Great Acceleration since 1950
+
+- CO2: 311ppm (1950) --> 369 (2000)
+
+- Capitalocene rather than Antropocene. 
+]
+
+???
+
+280ppm (pre-industrial)
+
+
+---
+
+
+layout:false
+class: top, left
+background-image: url(`r paste0(URL, 'Our-world-data/Emissions-by-sector.png')`)
+background-position: right
+background-size: contain
+
+
+## Anthropocène: <br> Humans as a geological force ... <br>
+
+<br> 
+- .bg-red.white.large[[in CO2] ]. 
+
+.pull-left[
+- Climate neautrality & decarbonization
+- Improvements in  sector counts
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Anthropocene/de-la-torre2021.png')`)
+background-position: 100% 70%
+background-size: 60%
+
+
+## Anthropocène: <br> Humans as a geological force ... <br> 
+<br> 
+- .bg-red.white.large[[in CO2]]
+- .bg-red.white.large[[in Plastic pollution]]. <br> 
+
+
+.pull-left-1[
+De-la-Torre, G. E., Dioses-Salinas, D. C., Pizarro-Ortega, C. I. & Santillán, L. New plastic formations in the Anthropocene. Science of The Total Environment 754, 142216 (2021).
+]
+
+---
+
+class: middle
+
+# Today, we need to include circularity in a micro/meso/macro level !!
+
+
+
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'CE/CalistoFriant2020.jpg')`)
+background-position: right
+background-size: contain
+
+## Towards Circularity 
+
+.pull-left-1.tiny[
+Calisto Friant, M., Vermeulen, W.J.V., <br> Salomone, R., 2020. A typology of circular economy discourses: <br> Navigating the diverse visions of a contested paradigm.<br> Resour. Conserv. Recycl. 161, 104917. https://doi.org/10.1016/j.resconrec.2020.104917
+]
+
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/Doughnut-00.png')`)
+background-position: right
+background-size: contain
+
+
+## Doughnut Economics
+
+- Beyond GDP growth
+- 'Sweet spot'  <br> minimal social requirements **AND** <br> Planetary earth's boundaries.
+
+.footnote[Raworth, K. A Safe and Just Space for Humanity: Can We Live within the Doughnut? Oxfam: Oxford, UK, 2012.
+]
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/World-2015.png')`)
+background-position: 100% 50%
+background-size: 70%
+
+
+## Doughnut Economics <br> .blue[World at 2015]
+
+- Beyond GDP growth
+- 'Sweet spot'  <br> minimal social requirements **AND** <br> Planetary earth's boundaries.
+
+.footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95. More details: https://goodlife.leeds.ac.uk .
+]
+
+
+???
+
+- Kate Raworth from Oxford and Cambrigde
+
+
+---
+
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/Nations-2015.png')`)
+background-position: 100% 50%
+background-size: 55%
+
+## Doughnut Economics: <br> .blue[World at 2015]
+
+.pull-left[
+
+- No country satisfy the basic needs without transgression
+
+]
+
+.footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). <br/>A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95.  <br>   https://goodlife.leeds.ac.uk
+]
+
+
+

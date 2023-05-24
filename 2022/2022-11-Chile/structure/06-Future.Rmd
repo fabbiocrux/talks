@@ -1,0 +1,25 @@
+
+background-image: url(`r paste0(URL, 'Ecoservices/Eco-Services-00.jpg')`)
+background-position: 100% 80%
+background-size: 50%
+
+## Future
+
+.bg-green[**Micro-industrial urban factories**] in the Antropocene:
+
+.pull-left[
+- Only **.red[tech-economic criteria]**  not enough for .orange[informed decision making]. 
+
+- Need to assess value chains to include **all impacts on ecosystems**
+
+- Bottom-up integration of **territorial and industrial systems** at levels:
+
+  - Material 
+  - Process 
+  - Systems
+  - Planetary
+]
+
+---
+
+
