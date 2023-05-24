@@ -3,9 +3,9 @@ title: "Lorraine Fab Living Lab®"
 subtitle: "Co-design Platform supporting Collaborative innovation"  
 institution: "Université de Lorraine – ERPI & ENSGSI"
 author: 
-  - "Fabio CRUZ (UTT-CREIDD / UL)"
+  - "Fabio CRUZ (UL)"
   - "Laurent DUPONT (UL)"
-date: "March, 2022"
+date: "24/05/2023"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
